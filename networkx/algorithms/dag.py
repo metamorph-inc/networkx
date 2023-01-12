@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
-from fractions import gcd
+try:
+    from math import gcd
+except ImportError:
+    from fractions import gcd
+    
 import networkx as nx
 from networkx.utils.decorators import *
 """Algorithms for directed acyclic graphs (DAGs)."""
