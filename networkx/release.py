@@ -172,9 +172,9 @@ def get_info(dynamic=True):
     return date, date_info, version, version_info, vcs_info
 
 ## Version information
-name = 'networkx'
+name = 'mms-networkx'
 major = '1'
-minor = '11'
+minor = '12rc1'
 
 
 ## Declare current release as a development release.
@@ -195,10 +195,10 @@ authors = {'Hagberg' : ('Aric Hagberg','hagberg@lanl.gov'),
            'Schult' : ('Dan Schult','dschult@colgate.edu'),
            'Swart' : ('Pieter Swart','swart@lanl.gov')
            }
-maintainer = "NetworkX Developers"
-maintainer_email = "networkx-discuss@googlegroups.com"
-url = 'http://networkx.github.io/'
-download_url= 'https://pypi.python.org/pypi/networkx/'
+maintainer = "MetaMorph, Inc."
+maintainer_email = "jwilliams@metamorphsoftware.com"
+url = 'https://github.com/metamorph-inc/networkx'
+download_url= 'https://pypi.python.org/pypi/mms-networkx/'
 platforms = ['Linux','Mac OSX','Windows','Unix']
 keywords = ['Networks', 'Graph Theory', 'Mathematics', 'network', 'graph', 'discrete mathematics', 'math']
 classifiers = [

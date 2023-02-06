@@ -1,3 +1,11 @@
+MMS-NetworkX
+------------
+
+This fork of NetworkX is maintained by MetaMorph, Inc. and is intended to
+support compatibility with OpenMDAO running on recent versions of Python and
+NumPy.  Users developing new code depending on NetworkX should use the current
+version found at https://networkx.org.
+
 NetworkX
 --------
 
